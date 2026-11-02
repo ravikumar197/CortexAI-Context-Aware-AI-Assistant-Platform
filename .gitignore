@@ -1,0 +1,20 @@
+.env
+backend/.env
+**/.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+# Python
+*.py[cod]
+venv/
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store

@@ -1,0 +1,57 @@
+
+.suggestions {
+  margin: 22px 0 16px;
+}
+
+.suggestions h2 {
+  margin: 0 0 12px;
+  font-size: 14px;
+}
+
+.suggestions p {
+  color: #a6adbf;
+  font-size: 12px;
+}
+
+.suggestion-list {
+  display: grid;
+  gap: 8px;
+}
+
+.suggestion-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #34394a;
+  background: #191d28;
+  color: #e7e9f3;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.suggestion-button:hover:not(:disabled) {
+  background: #292d3b;
+  border-color: #7661f6;
+}
+
+.page-status {
+  color: #a6adbf;
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+
+
+.enable-description {
+  margin: 18px 0;
+  color: #c4c9d8;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.intro .status-dot {
+  flex-shrink: 0;
+}
